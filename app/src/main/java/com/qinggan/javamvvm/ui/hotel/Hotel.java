@@ -14,6 +14,7 @@ public class Hotel implements Serializable {
     private String score;
     private String roomPrice;
     private String roomInfo;
+    private String imgUri;
 
 //    private List<Room> rooms;
 
@@ -78,5 +79,13 @@ public class Hotel implements Serializable {
 
     public void setRoomInfo(String roomInfo) {
         this.roomInfo = roomInfo;
+    }
+
+    public String getImgUri() {
+        return imgUri;
+    }
+
+    public void setImgUri(String imgUri) {
+        this.imgUri = imgUri;
     }
 }
