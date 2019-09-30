@@ -1,0 +1,45 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from: "config.gradle"
+
+buildscript {
+    ext.navigationVersion = "2.1.0-alpha06"
+    ext.arouter_register_version = '1.0.2'
+
+    repositories {
+        google()
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public'}
+        maven { url "http://10.10.96.219:8081/repository/maven-public" }
+        maven { url "http://10.10.96.219:8081/repository/google" }
+        maven { url 'https://dl.bintray.com/umsdk/release' }
+        jcenter()
+
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigationVersion"
+        classpath "com.alibaba:arouter-register:$arouter_register_version"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public'}
+        maven { url "http://10.10.96.219:8081/repository/maven-public" }
+        maven { url "http://10.10.96.219:8081/repository/google" }
+        maven { url 'https://dl.bintray.com/umsdk/release' }
+        jcenter()
+        maven { url 'https://jitpack.io' }
+
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+

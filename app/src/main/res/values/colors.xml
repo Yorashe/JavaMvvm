@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_withe">#FFFFFFFE</color>
+    <color name="color_gray">#50FFFFFE</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="voice_background_color">#F4F4F5</color>
+
+    <color name="line_pulse_error">#FFFF8B00</color>
+    <color name="line_pulse_color1">#FFCC70FF</color>
+    <color name="line_pulse_color2">#FF9F8FFA</color>
+    <color name="line_pulse_color3">#FF75ADF6</color>
+    <color name="line_pulse_color4">#FF46D0F2</color>
+    <color name="line_pulse_color5">#FF12F3EC</color>
+
+    <color name="colorDetail">#739B97</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#E7E7E7</color>
+
+    <color name="common_line_color">#959595</color>
+    <color name="main_first_color">#FF000E2F</color>
+    <color name="flight_text_color">#33000E2F</color>
+    <color name="main_second_color">#FF93989A</color>
+    <color name="flight_line_color">#959595</color>
+    <color name="flight_money_color">#272727</color>
+
+    <color name="default_main_text_color">#272727</color>
+    <color name="default_second_text_color">#93989A</color>
+
+    <color name="default_main_bg">#D8D8D8</color>
+
+    <color name="black_50_color">#7f000000</color>
+    <color name="order_pay_color">#FFFF8B00</color>
+
+    <color name="color_high_light_color">#AC9270</color>
+    <color name="order_bord_color">#CDBEA4</color>
+    <color name="order_info_color">#888888</color>
+
+    <color name="pay_text_color">#272727</color>
+    <color name="pay_order_color">#AC916F</color>
+    <color name="color_item_press">#FFAC916F</color>
+</resources>
