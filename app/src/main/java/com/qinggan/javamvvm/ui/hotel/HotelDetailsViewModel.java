@@ -14,7 +14,7 @@ import me.goldze.mvvmhabit.base.BaseViewModel;
 public class HotelDetailsViewModel extends BaseViewModel {
     public MutableLiveData<Hotel> hotel = new MutableLiveData<>();
 
-    public static  String url ="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1569844480407&di=b312da087e380dddc46a8bb96c68ad20&imgtype=0&src=http%3A%2F%2Fuserimg.qunar.com%2Fimgs%2F201411%2F05%2FC.nOSnk00eLkAurBkb0720.jpg";
+    public static String url ="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1569844480407&di=b312da087e380dddc46a8bb96c68ad20&imgtype=0&src=http%3A%2F%2Fuserimg.qunar.com%2Fimgs%2F201411%2F05%2FC.nOSnk00eLkAurBkb0720.jpg";
     public HotelDetailsViewModel(@NonNull Application application) {
         super(application);
     }
@@ -31,6 +31,7 @@ public class HotelDetailsViewModel extends BaseViewModel {
         mhotel.setRoomInfo("大床房");
         mhotel.setScore("4.4");
         mhotel.setRoomPrice("505");
+        mhotel.setImgUri(url);
         hotel.setValue(mhotel);
     }
 
