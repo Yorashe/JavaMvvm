@@ -2,7 +2,6 @@ package com.qinggan.javamvvm.ui.main;
 
 import android.os.Bundle;
 
-import me.goldze.mvvmhabit.base.BaseFragment;
 
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -11,6 +10,7 @@ import android.view.ViewGroup;
 import com.qinggan.javamvvm.BR;
 import com.qinggan.javamvvm.R;
 import com.qinggan.javamvvm.databinding.MainFragmentBinding;
+import me.goldze.mvvmhabit.base.BaseFragment;
 
 public class MainFragment extends BaseFragment<MainFragmentBinding,MainViewModel> {
 

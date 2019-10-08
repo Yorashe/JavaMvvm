@@ -1,2 +1,2 @@
-include ':app', ':mvvmhabit'
+include ':app', ':lib-base', ':module-hotel'
 rootProject.name='JavaMvvm'

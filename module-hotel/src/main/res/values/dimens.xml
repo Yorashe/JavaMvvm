@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="hotel_text_size_m">12dp</dimen>
+    <dimen name="hotel_text_size_xm">14dp</dimen>
+    <dimen name="hotel_text_size_h">16dp</dimen>
+    <dimen name="hotel_text_size_xxh">24dp</dimen>
+
+    <dimen name="hotel_card_margin_start">16dp</dimen>
+    <dimen name="hotel_card_margin_end">16dp</dimen>
+    <dimen name="hotel_card_margin_top">16dp</dimen>
+    <dimen name="hotel_card_margin_content_bottom">8dp</dimen>
+    <dimen name="hotel_card_margin_bottom">18dp</dimen>
+    <dimen name="hotel_card_price_layout_height">72dp</dimen>
+
+</resources>

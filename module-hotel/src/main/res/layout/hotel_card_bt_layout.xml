@@ -5,13 +5,13 @@
     <data>
         <variable
             name="hotelVm"
-            type="com.qinggan.javamvvm.ui.hotel.HotelDetailsViewModel" />
+            type="com.qinggan.hotel.HotelDetailsViewModel" />
     </data>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/card_bt_layout_height"
-        android:background="@color/color_withe"
+        android:background="@color/white"
         android:orientation="horizontal">
 
         <TextView
@@ -22,7 +22,7 @@
             android:gravity="center"
             android:text="取消"
             android:onClick="@{hotelVm::cancel}"
-            android:textColor="@color/colorBlack"
+            android:textColor="@color/hotel_colorBlack"
             android:textSize="@dimen/text_size_m" />
 
         <TextView
@@ -30,11 +30,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="3"
-            android:background="@mipmap/btn_icon_pay"
+            android:background="@mipmap/hotel_btn_icon_pay"
             android:gravity="center"
             android:text="立即支付"
             android:onClick="@{hotelVm::book}"
-            android:textColor="@color/color_withe"
+            android:textColor="@color/white"
             android:textSize="@dimen/text_size_m" />
     </LinearLayout>
 </layout>

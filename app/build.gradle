@@ -33,10 +33,12 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     // Dependencies for local unit tests
-    implementation 'com.alibaba:arouter-annotation:1.0.6'
-    implementation ('com.alibaba:arouter-api:1.5.0'){ exclude group: 'com.android.support' }
-    annotationProcessor 'com.alibaba:arouter-compiler:1.2.2'
-    implementation project(path: ':mvvmhabit')
-    implementation 'androidx.cardview:cardview:1.0.0'
-
+    //组件中依赖阿里路由编译框架
+    annotationProcessor rootProject.ext.dependencies["arouter-compiler"]
+    if (isBuildModule.toBoolean()) {
+        //组件独立运行时，宿主项目直接依赖基础库，避免编译错误
+        implementation project(':library-base')
+    } else {
+        implementation project(':module-hotel')
+    }
 }

@@ -4,7 +4,8 @@ package com.qinggan.javamvvm.ui.main;
 import android.app.Application;
 import android.support.annotation.NonNull;
 
-import com.qinggan.javamvvm.ui.hotel.HotelActivity;
+import com.alibaba.android.arouter.launcher.ARouter;
+import com.qinggan.router.RouterActivityPath;
 
 import me.goldze.mvvmhabit.base.BaseViewModel;
 import me.goldze.mvvmhabit.bus.event.SingleLiveEvent;
@@ -24,6 +25,6 @@ public class MainViewModel extends BaseViewModel {
     }
 
     public void bookHotel(){
-        startActivity(HotelActivity.class);
+        ARouter.getInstance().build(RouterActivityPath.Hotel.PAGER_HOTEL).navigation();
     }
 }

@@ -25,6 +25,8 @@ dependencies {
     api rootProject.ext.support["support-v4"]
     api rootProject.ext.support["appcompat-v7"]
     api rootProject.ext.support["recyclerview-v7"]
+    api rootProject.ext.support["cardview-v7"]
+
     //rxjava
     api rootProject.ext.dependencies.rxjava
     api rootProject.ext.dependencies.rxandroid
@@ -73,6 +75,7 @@ dependencies {
     api rootProject.ext.dependencies["lifecycle-extensions"]
     annotationProcessor rootProject.ext.dependencies["lifecycle-compiler"]
     api rootProject.ext.dependencies["tony-common-utils"]
+    api rootProject.ext.dependencies["arouter-api"]
 
 
 }

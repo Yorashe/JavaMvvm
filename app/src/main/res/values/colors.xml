@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="color_withe">#FFFFFFFE</color>
-    <color name="color_gray">#50FFFFFE</color>
-    <color name="color_transparent">#00000000</color>
+
     <color name="voice_background_color">#F4F4F5</color>
 
     <color name="line_pulse_error">#FFFF8B00</color>

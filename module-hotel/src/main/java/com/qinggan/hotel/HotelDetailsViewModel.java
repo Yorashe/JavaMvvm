@@ -1,8 +1,7 @@
-package com.qinggan.javamvvm.ui.hotel;
+package com.qinggan.hotel;
 
 import android.app.Application;
 import android.arch.lifecycle.MutableLiveData;
-import android.support.v4.os.HandlerCompat;
 import android.view.View;
 
 import io.reactivex.annotations.NonNull;

@@ -1,7 +1,6 @@
-package com.qinggan.javamvvm.ui.hotel;
+package com.qinggan.hotel;
 
 import java.io.Serializable;
-import java.util.List;
 
 /**
  * Created by Yorashe on 19-9-30.
