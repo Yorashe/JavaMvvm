@@ -76,6 +76,8 @@ dependencies {
     annotationProcessor rootProject.ext.dependencies["lifecycle-compiler"]
     api rootProject.ext.dependencies["tony-common-utils"]
     api rootProject.ext.dependencies["arouter-api"]
+    api project(':lib-res')
+
 
 
 }

@@ -24,4 +24,13 @@ public class RouterActivityPath {
         public static final String PAGER_HOTEL = HOTEL + "/Hotel";
     }
 
+    /**
+     * 登录组件
+     */
+    public static class Login {
+        private static final String LOGIN = "/login";
+        /*登录界面*/
+        public static final String PAGER_LOGIN = LOGIN + "/Login";
+    }
+
 }

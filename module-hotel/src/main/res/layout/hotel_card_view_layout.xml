@@ -20,7 +20,7 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:cardBackgroundColor="@color/default_main_bg"
+            app:cardBackgroundColor="@color/hotel_default_main_bg"
             app:cardCornerRadius="5dp"
             app:cardElevation="0dp">
 
@@ -31,7 +31,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/card_content_layout_height"
+                    android:layout_height="@dimen/hotel_card_content_layout_height"
                     android:layout_marginEnd="@dimen/hotel_card_margin_end"
                     android:layout_marginStart="@dimen/hotel_card_margin_start"
                     android:orientation="horizontal">
@@ -78,7 +78,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:textColor="@color/black_50_color"
+                                android:textColor="@color/hotel_black_50_color"
                                 android:textSize="@dimen/hotel_text_size_m"
                                 tools:text="@{hotelVm.hotel.info}" />
                         </LinearLayout>
@@ -97,7 +97,7 @@
                                 android:layout_gravity="center_vertical"
                                 android:layout_marginStart="16dp"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black_50_color"
+                                android:textColor="@color/hotel_black_50_color"
                                 android:textSize="@dimen/hotel_text_size_m"
                                 tools:text="@{hotelVm.hotel.score}" />
 
@@ -107,7 +107,7 @@
                             android:id="@+id/hotelAddressTv"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@color/black_50_color"
+                            android:textColor="@color/hotel_black_50_color"
                             android:textSize="@dimen/hotel_text_size_m"
                             tools:text="@{hotelVm.hotel.name}" />
                     </RelativeLayout>
@@ -117,7 +117,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/card_data_layout_height"
+                    android:layout_height="@dimen/hotel_card_data_layout_height"
                     android:layout_marginEnd="@dimen/hotel_card_margin_end"
                     android:layout_marginStart="@dimen/hotel_card_margin_start"
                     android:gravity="center_vertical"
@@ -134,7 +134,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="入住日期"
-                            android:textColor="@color/black_50_color"
+                            android:textColor="@color/hotel_black_50_color"
                             android:textSize="@dimen/hotel_text_size_m" />
 
                         <TextView
@@ -160,7 +160,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="离店日期"
-                            android:textColor="@color/black_50_color"
+                            android:textColor="@color/hotel_black_50_color"
                             android:textSize="@dimen/hotel_text_size_m" />
 
                         <TextView
@@ -202,7 +202,7 @@
                         android:layout_height="24dp"
                         android:gravity="bottom"
                         android:text="¥"
-                        android:textColor="@color/flight_money_color"
+                        android:textColor="@color/hotel_flight_money_color"
                         android:textSize="@dimen/hotel_text_size_m"
                         android:textStyle="bold" />
 
@@ -219,7 +219,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
-                        android:textColor="@color/black_50_color"
+                        android:textColor="@color/hotel_black_50_color"
                         android:textSize="@dimen/hotel_text_size_xm"
                         tools:text="@{hotelVm.hotel.roomInfo}" />
                 </LinearLayout>

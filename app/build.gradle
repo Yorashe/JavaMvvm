@@ -1,11 +1,17 @@
-apply plugin: 'com.android.application'
+if (isBuildAAR.toBoolean()) {
+    apply plugin: 'com.android.library'
+}else{
+    apply plugin: 'com.android.application'
+}
 apply plugin: 'com.alibaba.arouter'
 
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
     defaultConfig {
-        applicationId rootProject.ext.android.applicationId
-        minSdkVersion rootProject.ext.android.minSdkVersion
+        if (!isBuildAAR.toBoolean()) {
+            applicationId rootProject.ext.android.applicationId
+            minSdkVersion rootProject.ext.android.minSdkVersion
+        }
         targetSdkVersion rootProject.ext.android.targetSdkVersion
         versionCode rootProject.ext.android.versionCode
         versionName rootProject.ext.android.versionName
@@ -38,7 +44,10 @@ dependencies {
     if (isBuildModule.toBoolean()) {
         //组件独立运行时，宿主项目直接依赖基础库，避免编译错误
         implementation project(':library-base')
+        implementation project(':module-main')
     } else {
         implementation project(':module-hotel')
+        implementation project(':module-main')
+        implementation project(':module-login')
     }
 }

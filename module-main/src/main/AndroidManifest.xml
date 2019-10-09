@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qinggan.main">
+
+    <application>
+        <activity android:name="com.qinggan.main.ui.MainActivity"/>
+    </application>
+</manifest>

@@ -10,5 +10,8 @@
     <dimen name="hotel_card_margin_content_bottom">8dp</dimen>
     <dimen name="hotel_card_margin_bottom">18dp</dimen>
     <dimen name="hotel_card_price_layout_height">72dp</dimen>
+    <dimen name="hotel_card_content_layout_height">170dp</dimen>
+    <dimen name="hotel_card_data_layout_height">72dp</dimen>
+    <dimen name="hotel_card_bt_layout_height">48dp</dimen>
 
 </resources>

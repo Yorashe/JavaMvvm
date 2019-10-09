@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/card_bt_layout_height"
+        android:layout_height="@dimen/hotel_card_bt_layout_height"
         android:background="@color/white"
         android:orientation="horizontal">
 
@@ -23,7 +23,7 @@
             android:text="取消"
             android:onClick="@{hotelVm::cancel}"
             android:textColor="@color/hotel_colorBlack"
-            android:textSize="@dimen/text_size_m" />
+            android:textSize="@dimen/hotel_text_size_m" />
 
         <TextView
             android:id="@+id/sureTv"
@@ -35,6 +35,6 @@
             android:text="立即支付"
             android:onClick="@{hotelVm::book}"
             android:textColor="@color/white"
-            android:textSize="@dimen/text_size_m" />
+            android:textSize="@dimen/hotel_text_size_m" />
     </LinearLayout>
 </layout>
